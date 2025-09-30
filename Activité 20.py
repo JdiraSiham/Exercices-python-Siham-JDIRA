@@ -1,18 +1,5 @@
 #Réalisée par : JDIRA Siham 
 
-#Activité 19 question 7 :
-
-def F7():
-    n=int(input("Saisir l'ordre n de la suite Fibonacci : "))
-    x=1
-    y=1
-    for j in range (n):
-        z=x+y
-        print(f"{x}+{y}={z}")
-        x=y
-        y=z
-F7()
-
 #Activité 20:
 
 adresses_ip=["192.168.0.1", "10.0.0.1", "172.16.0.1", "200.100.50.1", "169.254.0.1"]
@@ -69,3 +56,4 @@ for ip in classes:
     if classes[ip]== 'adresse IP de lien local (APIPA)':
        n+=1
 print(f"11). le nombre d'adresse IP de lien local (APIPA) sont : {n}")
+
