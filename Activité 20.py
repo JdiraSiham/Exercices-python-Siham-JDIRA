@@ -23,17 +23,17 @@ print(f"3). le troisieme adresse dans la liste est : {adresses_ip[2]}")
 
 #Question 4 :
 adresses_ip.append('172.31.0.1')
-print(f"4). {adresses_ip}")
+print(f"4). Apres l'ajout de l'adresse IP 172.31.0.1 la nouvelle liste est : {adresses_ip}")
 
 #Question 5 :
 adresses_ip.remove('200.100.50.1')
-print(f"5). {adresses_ip}")
+print(f"5). Apres la suppression de l'adresse IP 200.100.50.1 la nouvelle liste est : {adresses_ip}")
 
 #Question 6 :
 print(f"6). le nombre d'adresses IP restants apres la modification est : {len(adresses_ip)}")
 
 #Question 7 :
-print(f"7). l'adresse IP '192.168.0.1'est present dans la liste ? {'192.168.0.1'in adresses_ip}")
+print(f"7). l'adresse IP '192.168.0.1' est present dans la liste ? {'192.168.0.1'in adresses_ip}")
 
 #Question 8:
 print(f"8). la classe d'adresse IP 10.0.0.1 est : {classes['10.0.0.1'] }")
@@ -56,4 +56,3 @@ for ip in classes:
     if classes[ip]== 'adresse IP de lien local (APIPA)':
        n+=1
 print(f"11). le nombre d'adresse IP de lien local (APIPA) sont : {n}")
-
